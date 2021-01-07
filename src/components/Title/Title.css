@@ -1,0 +1,9 @@
+.title {
+  font-size: 30px;
+  color: blue;
+  transition: 0.5s all;
+}
+
+.title:hover {
+  color: blueviolet;
+}
