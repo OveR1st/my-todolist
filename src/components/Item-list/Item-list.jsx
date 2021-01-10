@@ -1,6 +1,7 @@
+import React from "react";
 
 const ItemList = () => {
-  return(
+  return (
     <div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Cras justo odio</li>
@@ -9,6 +10,6 @@ const ItemList = () => {
       </ul>
     </div>
   );
-}
+};
 
 export default ItemList;

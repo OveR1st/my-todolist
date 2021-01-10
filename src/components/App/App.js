@@ -1,10 +1,11 @@
+import React from "react";
 
-import Title from '../Title';
-import Header from '../Header';
-import ItemList from '../Item-list';
-import Footer from '../Footer';
+import Title from "../Title";
+import Header from "../Header";
+import ItemList from "../Item-list";
+import Footer from "../Footer";
 
-import './App.css';
+import "./App.css";
 
 const App = () => {
   return (
@@ -14,6 +15,6 @@ const App = () => {
       <ItemList />
       <Footer />
     </div>
-  );   
-}
+  );
+};
 export default App;
